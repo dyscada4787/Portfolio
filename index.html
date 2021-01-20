@@ -197,22 +197,22 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
+          <button class="category__btn active" data-filter="*">
             All<span class="category__count">10</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="hardware">
             Hardware<span class="category__count">8</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="software">
             Software<span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="system">
             System<span class="category__count">3</span>
           </button>
         </div>
 
         <div class="work__projects">
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="hardware">
             <img
               src="/imgs/projects/train.png"
               alt="Train"
@@ -223,7 +223,7 @@
               <span>System design</span>
             </div>
           </a>
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="software">
             <img
               src="/imgs/projects/gas.png"
               alt="Train"
@@ -234,20 +234,9 @@
               <span>System design</span>
             </div>
           </a>
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="system">
             <img
               src="/imgs/projects/fighter-jet.png"
-              alt="Train"
-              class="project__img"
-            />
-            <div class="project__description">
-              <h3>Interlock for train</h3>
-              <span>System design</span>
-            </div>
-          </a>
-          <a href="" class="project" target="blank">
-            <img
-              src="/imgs/projects/phone.png"
               alt="Train"
               class="project__img"
             />
